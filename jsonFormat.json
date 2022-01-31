@@ -1,0 +1,8 @@
+{
+    "entry_type": "PE/CE/FUT",
+    "tradingsymbol": "NIFTY21NOVFUT",
+    "exchange": "NFO",
+    "transaction_type": "BUY",
+    "quantity": "1",
+    "price": 1300.0
+}
