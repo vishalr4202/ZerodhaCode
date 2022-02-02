@@ -17,21 +17,13 @@ kite = KiteConnect(kitesettings.API_KEY)
 # acc_tok = gen_ssn['access_token']
 # print(acc_tok)
 # kite.set_access_token(acc_tok)
-# order_id = ''
+order_id = ''
 
 
 def order_place(symbol, exchange, transaction, quantity, price):
     # kite = KiteConnect(kitesettings.API_KEY)
     kite.set_access_token(kitesettings.access_token)
 
-    # order_id = kite.place_order(tradingsymbol="INFY",
-    #                                 exchange=kite.EXCHANGE_NSE,
-    #                                 transaction_type=kite.TRANSACTION_TYPE_BUY,
-    #                                 quantity=1,
-    #                                 price=1300.0,
-    #                                 variety=kite.VARIETY_REGULAR,
-    #                                 order_type=kite.ORDER_TYPE_MARKET,
-    #                                 product=kite.PRODUCT_CNC)
     try:
         order_id = kite.place_order(tradingsymbol=symbol,
                                     exchange=exchange,
@@ -56,7 +48,7 @@ def hello_world():
     # os.system('start chrome ' + url)
 
     # webbrowser.open(url)
-    return "<p>Hello, Nifty 20 nov!</p>"
+    return "<p>Hello, Nifty 30 nov!</p>"
 
 
 @app.route("/welcome")
