@@ -48,7 +48,7 @@ def hello_world():
     # os.system('start chrome ' + url)
 
     # webbrowser.open(url)
-    return "<p>Hello, Nifty 30 nov!</p>"
+    return "<p>Hello, Nifty 6 Feb!</p>"
 
 
 @app.route("/welcome")
