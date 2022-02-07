@@ -9,7 +9,7 @@ logging.basicConfig(level=logging.DEBUG)
 app = Flask(__name__)
 
 
-kite = KiteConnect(kitesettings.API_KEY)
+# kite = KiteConnect(kitesettings.API_KEY)
 # print(kite.login_url())
 # reqt_token = input("token:")
 # gen_ssn = kite.generate_session(
