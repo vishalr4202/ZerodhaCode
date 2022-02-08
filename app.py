@@ -9,7 +9,7 @@ logging.basicConfig(level=logging.DEBUG)
 app = Flask(__name__)
 
 
-# kite = KiteConnect(kitesettings.API_KEY)
+kite = KiteConnect(kitesettings.API_KEY)
 # print(kite.login_url())
 # reqt_token = input("token:")
 # gen_ssn = kite.generate_session(
@@ -48,7 +48,7 @@ def hello_world():
     # os.system('start chrome ' + url)
 
     # webbrowser.open(url)
-    return "<p>Hello, Nifty 6 Feb!</p>"
+    return "<p>Hello, Nifty 8 Feb!</p>"
 
 
 @app.route("/welcome")
