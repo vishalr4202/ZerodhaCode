@@ -1,5 +1,5 @@
 
-API_KEY = "2nqrb7e20f9gy2mp"
-api_secret = "24hppoib99gudt5t4glq7yw5m9dr29ax"
+API_KEY = "7b4f3rj7fe137j69"
+api_secret = "0j9hk4mwv5v9xypjoppkh6nvbr61sovn"
 # ====================================================
-access_token = "ja1210c3zVeF6HgDqGJh8b4HwETYJ6Lr"
+access_token = "OzTZ7anFkuzZ5kxVGwU05KlxsMENIYrz"
