@@ -10,6 +10,11 @@ app = Flask(__name__)
 
 
 kite = KiteConnect(kitesettings.API_KEY)
+order_id = ''
+
+###/  LOGIN START ####/
+
+
 # print(kite.login_url())
 # reqt_token = input("token:")
 # gen_ssn = kite.generate_session(
@@ -17,7 +22,10 @@ kite = KiteConnect(kitesettings.API_KEY)
 # acc_tok = gen_ssn['access_token']
 # print(acc_tok)
 # kite.set_access_token(acc_tok)
-order_id = ''
+
+
+###/  LOGIN END ####/
+
 
 
 def order_place(symbol, exchange, transaction, quantity, price):
