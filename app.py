@@ -15,13 +15,13 @@ order_id = ''
 ###/  LOGIN START ####/
 
 
-# print(kite.login_url())
-# reqt_token = input("token:")
-# gen_ssn = kite.generate_session(
-#     request_token=reqt_token, api_secret=kitesettings.api_secret)
-# acc_tok = gen_ssn['access_token']
-# print(acc_tok)
-# kite.set_access_token(acc_tok)
+print(kite.login_url())
+reqt_token = input("token:")
+gen_ssn = kite.generate_session(
+    request_token=reqt_token, api_secret=kitesettings.api_secret)
+acc_tok = gen_ssn['access_token']
+print(acc_tok)
+kite.set_access_token(acc_tok)
 
 
 ###/  LOGIN END ####/
